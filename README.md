@@ -1,6 +1,8 @@
 # Documentation
-## Connection
-You should connect to this url pattern: `server:port/android-api/users/`
+## Introduction
+This web API has been written in ASP.NET Core. The goal is to provide some basic functionality to connect an android application to this API. Briefly, the functionalities are validate a user, register and gets the profile of a user. You can find the details below. So, let's start! :+1:
+## How To Connect
+You should connect to this url pattern: `server:port/android-api/users/` where `android-api/users/` is for this particular API.
 <br />
 Each method name should come after the above pattern. example: `http://192.168.1.12:5000/android-api/users/get-all-users`
 ## Models
@@ -15,7 +17,7 @@ Each method name should come after the above pattern. example: `http://192.168.1
 └──── Success < bool >
 └──── Message < string >
 ```
-## HTTP request methods reference
+## API Functions
 * `get-all-users`
    * **Method:** GET
    * **Parameter(s):** none
