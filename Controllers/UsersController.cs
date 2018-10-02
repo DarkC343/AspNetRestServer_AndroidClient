@@ -42,7 +42,7 @@ namespace RegisterLoging.Controllers
             }
         }
 
-        // GET android-api/get-all-users
+        // GET android-api/users/get-all-users
         [HttpGet("Get-All-Users")]
         public ActionResult<IEnumerable<Person>> GetAllUsers()
         {
@@ -57,7 +57,7 @@ namespace RegisterLoging.Controllers
             return BadRequest(new Response { Success = false, Message = "DATABASE_IS_EMPTY" });
         }
 
-        // GET android-api/getprofile?username=ali
+        // GET android-api/users/get-profile?username=ali
         [HttpGet("Get-Profile")]
         public ActionResult<Person> GetProfile(string username)
         {
@@ -73,14 +73,14 @@ namespace RegisterLoging.Controllers
             return BadRequest(new Response { Success = false, Message = "USERNAME_DOES_NOT_EXIST" });
         }
 
-        // POST android-api/validate
+        // POST android-api/users/validate
         [HttpPost("Validate")]
         public ActionResult<Response> Validate([FromBody] string[] pair)
         {
             try
             {
                 var result = db.People.Where(q => q.Username == pair[0] && q.Password == pair[1]).FirstOrDefault();
-                if(result != null) return Ok(new Response { Success = true, Message = "LOGIN_IS_VALID" });
+                if(result != null) return Ok(new Response { Success = true });
             }
             catch
             {
@@ -89,7 +89,7 @@ namespace RegisterLoging.Controllers
             return BadRequest(new Response { Success = false, Message = "LOGIN_IS_INVALID" });
         }
 
-        // POST android-api/register
+        // POST android-api/users/register
         [HttpPost("Register")]
         public ActionResult Register([FromBody] Person person)
         {
@@ -103,14 +103,14 @@ namespace RegisterLoging.Controllers
                 }
                 else
                 {
-                    return BadRequest(new Response { Success = true, Message = "USERNAME_ALREADY_EXISTS" });
+                    return BadRequest(new Response { Success = false, Message = "USERNAME_ALREADY_EXISTS" });
                 }
             }
             catch
             {
                 return BadRequest(new Response { Success = false, Message = "DATABASE_ERROR" });
             }
-            return Ok(new Response { Success = true, Message = "REGISTERATION_IS_SUCCESSFUL" });
+            return Ok(new Response { Success = true });
         }
     }
 }
