@@ -3,6 +3,18 @@
 You should connect to this url pattern: `server:port/android-api/users/`
 <br />
 Each method name should come after the above pattern. example: `http://192.168.1.12:5000/android-api/users/get-all-users`
+## Models
+### Person
+```javascript
+└──── Name < string >
+└──── Username < string >
+└──── Password < string >
+```
+### Response
+```javascript
+└──── Success < bool >
+└──── Message < string >
+```
 ## HTTP request methods reference
 * `get-all-users`
    * **Method:** GET
