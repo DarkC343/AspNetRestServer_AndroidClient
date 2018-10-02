@@ -1,4 +1,8 @@
 # Documentation
+## Connection
+You should connect to this url pattern: `server:port/android-api/users/`
+<br />
+Each method name should come after the above pattern. example: `http://192.168.1.12:5000/android-api/users/get-all-users`
 ## HTTP request methods reference
 * `get-all-users`
    * **Method:** GET
