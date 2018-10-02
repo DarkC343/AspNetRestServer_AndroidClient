@@ -44,11 +44,11 @@ namespace RegisterLoging.Controllers
 
         // GET android-api/users/get-all-users
         [HttpGet("Get-All-Users")]
-        public ActionResult<IEnumerable<Person>> GetAllUsers()
+        public ActionResult GetAllUsers()
         {
             try
             {
-                if(db.People.Count() != 0) return Ok(db.People.ToArray());
+                if(db.People.Count() != 0) return Ok(new { Users = db.People.ToArray() });
             }
             catch
             {
