@@ -1,0 +1,17 @@
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/libhostpolicy.so
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/libhostfxr.so
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/RegisterLoging
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/RegisterLoging.deps.json
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/RegisterLoging.runtimeconfig.json
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/RegisterLoging.runtimeconfig.dev.json
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/RegisterLoging.dll
+/home/c343/Documents/RegisterLoging/bin/Release/netcoreapp2.1/linux-arm/RegisterLoging.pdb
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.csprojAssemblyReference.cache
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.csproj.CoreCompileInputs.cache
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.RazorAssemblyInfo.cache
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.RazorAssemblyInfo.cs
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.AssemblyInfoInputs.cache
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.AssemblyInfo.cs
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.RazorTargetAssemblyInfo.cache
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.dll
+/home/c343/Documents/RegisterLoging/obj/Release/netcoreapp2.1/linux-arm/RegisterLoging.pdb
