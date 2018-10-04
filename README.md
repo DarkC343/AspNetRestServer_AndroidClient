@@ -82,6 +82,12 @@ Each method name should come after the above pattern. example: `http://192.168.1
    * **Output(s):** a 'Response' model
    * **Error(s):** DATABASE_ERROR, LOGIN_IS_INVALID
    * **Description:** Checks whether the pair consisting of username and password is valid or not. Clearly, 'true' in 'Response' output model means valid.
+   ```json
+   {
+    "success": true,
+    "message": null
+  }
+   ```
 * `register`
    * **Method:** POST
    * **Parameter(s):** a 'Person' model
