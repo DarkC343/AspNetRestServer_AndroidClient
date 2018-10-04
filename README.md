@@ -94,3 +94,9 @@ Each method name should come after the above pattern. example: `http://192.168.1
    * **Output(s):** a 'Response' model
    * **Error(s):** DATABASE_ERROR, USERNAME_ALREADY_EXISTS
    * **Description:** Adds a new person to 'People' table. Notice a duplicate username is not acceptable.
+   ```json
+   {
+    "success": true,
+    "message": null
+  }
+   ```
