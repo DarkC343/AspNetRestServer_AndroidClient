@@ -24,12 +24,60 @@ Each method name should come after the above pattern. example: `http://192.168.1
    * **Output(s):** array of 'Person' models, a 'Response' model
    * **Error(s):** DATABASE_ERROR, DATABASE_IS_EMPTY
    * **Description:** Gets all people from 'People' table
+  Example:
+  ```json
+  {
+    "users": [
+      {
+      "personId": 1,
+      "name": "Amir",
+      "username": "amir_01",
+      "password": "test1"
+      },
+      {
+      "personId": 2,
+      "name": "Ali",
+      "username": "ali_the_hacker",
+      "password": "test2"
+      },
+      {
+      "personId": 3,
+      "name": "Sajad",
+      "username": "sajjad99",
+      "password": "test3"
+      },
+      {
+      "personId": 4,
+      "name": "Hashem",
+      "username": "h4shem",
+      "password": "test4"
+      },
+      {
+      "personId": 5,
+      "name": "AmirMohammad",
+      "username": "darkc343",
+      "password": "123"
+      }
+    ]
+  }
+  ```
 * `get-profile`
    * **Method:** GET
    * **Parameter(s):** 'username' string
    * **Output(s):** a 'Person' models, a 'Response' model
    * **Error(s):** DATABASE_ERROR, USERNAME_DOES_NOT_EXIST
    * **Description:** Get a profile based on the username provided (ex. get-profile?username=amir_01)
+   Example:
+  ```json
+  {
+    "user": {
+    "personId": 1,
+    "name": "Amir",
+    "username": "amir_01",
+    "password": "test1"
+    }
+  }
+  ```
 * `validate`
    * **Method:** POST
    * **Parameter(s):** 'username' and 'password' string array. pair\[0] = username, pair\[1] = password
