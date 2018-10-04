@@ -11832,11 +11832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/c343/Documents/AndroidClient/AspNetRestServer_AndroidClient/RegisterLoging.csproj",
+      "projectUniqueName": "/home/c343/Documents/AspNetRestServer_AndroidClient/RegisterLoging.csproj",
       "projectName": "RegisterLoging",
-      "projectPath": "/home/c343/Documents/AndroidClient/AspNetRestServer_AndroidClient/RegisterLoging.csproj",
+      "projectPath": "/home/c343/Documents/AspNetRestServer_AndroidClient/RegisterLoging.csproj",
       "packagesPath": "/home/c343/.nuget/packages/",
-      "outputPath": "/home/c343/Documents/AndroidClient/AspNetRestServer_AndroidClient/obj/",
+      "outputPath": "/home/c343/Documents/AspNetRestServer_AndroidClient/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

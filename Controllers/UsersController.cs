@@ -59,12 +59,12 @@ namespace RegisterLoging.Controllers
 
         // GET android-api/users/get-profile?username=ali
         [HttpGet("Get-Profile")]
-        public ActionResult<Person> GetProfile(string username)
+        public ActionResult GetProfile(string username)
         {
             try
             {
                 var result = db.People.Where(q => q.Username == username).FirstOrDefault();
-                if(result != null) return Ok(result);
+                if(result != null) return Ok(new { User = result });
             }
             catch
             {

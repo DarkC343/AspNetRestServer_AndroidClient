@@ -26,3 +26,17 @@
 /home/c343/Documents/AndroidClient/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.RazorTargetAssemblyInfo.cache
 /home/c343/Documents/AndroidClient/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.dll
 /home/c343/Documents/AndroidClient/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.pdb
+/home/c343/Documents/AspNetRestServer_AndroidClient/bin/Debug/netcoreapp2.1/RegisterLoging.deps.json
+/home/c343/Documents/AspNetRestServer_AndroidClient/bin/Debug/netcoreapp2.1/RegisterLoging.runtimeconfig.json
+/home/c343/Documents/AspNetRestServer_AndroidClient/bin/Debug/netcoreapp2.1/RegisterLoging.runtimeconfig.dev.json
+/home/c343/Documents/AspNetRestServer_AndroidClient/bin/Debug/netcoreapp2.1/RegisterLoging.dll
+/home/c343/Documents/AspNetRestServer_AndroidClient/bin/Debug/netcoreapp2.1/RegisterLoging.pdb
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.csprojAssemblyReference.cache
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.csproj.CoreCompileInputs.cache
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.RazorAssemblyInfo.cache
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.RazorAssemblyInfo.cs
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.AssemblyInfoInputs.cache
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.AssemblyInfo.cs
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.RazorTargetAssemblyInfo.cache
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.dll
+/home/c343/Documents/AspNetRestServer_AndroidClient/obj/Debug/netcoreapp2.1/RegisterLoging.pdb
