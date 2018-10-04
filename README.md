@@ -24,8 +24,6 @@ Each method name should come after the above pattern. example: `http://192.168.1
    * **Output(s):** array of 'Person' models, a 'Response' model
    * **Error(s):** DATABASE_ERROR, DATABASE_IS_EMPTY
    * **Description:** Gets all people from 'People' table
-   <br />
-  Example:
   ```json
   {
     "users": [
@@ -68,7 +66,6 @@ Each method name should come after the above pattern. example: `http://192.168.1
    * **Output(s):** a 'Person' models, a 'Response' model
    * **Error(s):** DATABASE_ERROR, USERNAME_DOES_NOT_EXIST
    * **Description:** Get a profile based on the username provided (ex. get-profile?username=amir_01)
-   Example:
   ```json
   {
     "user": {
